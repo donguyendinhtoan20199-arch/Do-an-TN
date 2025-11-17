@@ -3,13 +3,6 @@ import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/10
 
 // ---- Firebase Config của bạn ----
 const firebaseConfig = {
- // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-const firebaseConfig = {
   apiKey: "AIzaSyC5Ujjg34rrzw8ufFKHh7AyOumbNHfQitI",
   authDomain: "esp32-lora-monitor-cdcc9.firebaseapp.com",
   databaseURL: "https://esp32-lora-monitor-cdcc9-default-rtdb.asia-southeast1.firebasedatabase.app",
@@ -18,9 +11,6 @@ const firebaseConfig = {
   messagingSenderId: "455598190026",
   appId: "1:455598190026:web:6ef064a7d7314421d87333"
 };
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
 
 // ---- Khởi tạo Firebase ----
 const app = initializeApp(firebaseConfig);
