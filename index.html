@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ESP32 LoRa Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>🔥 ESP32 LoRa Dashboard</h1>
+
+    <div class="container">
+
+        <!-- KV1 -->
+        <div class="card">
+            <h2>Khu vực 1</h2>
+            <p><b>Nhiệt độ:</b> <span id="kv1Temp">--</span> °C</p>
+            <p><b>Độ ẩm:</b> <span id="kv1Humi">--</span> %</p>
+            <p><b>CO:</b> <span id="kv1CO">--</span></p>
+            <p><b>Gas:</b> <span id="kv1Gas">--</span></p>
+            <p><b>Lửa:</b> <span id="kv1Fire">--</span></p>
+            <p><b>Thời gian:</b> <span id="kv1Time">--</span></p>
+        </div>
+
+        <!-- KV2 -->
+        <div class="card">
+            <h2>Khu vực 2</h2>
+            <p><b>Nhiệt độ:</b> <span id="kv2Temp">--</span> °C</p>
+            <p><b>Độ ẩm:</b> <span id="kv2Humi">--</span> %</p>
+            <p><b>CO:</b> <span id="kv2CO">--</span></p>
+            <p><b>Gas:</b> <span id="kv2Gas">--</span></p>
+            <p><b>Lửa:</b> <span id="kv2Fire">--</span></p>
+            <p><b>Thời gian:</b> <span id="kv2Time">--</span></p>
+        </div>
+
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
